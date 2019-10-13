@@ -15,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/blue-tape": "^0.1.32",
+    "@types/node": "^12.7.12",
     "blue-tape": "^1.0.0",
     "nyc": "^13.3.0",
     "simwood-api-node": "^1.0.3",
