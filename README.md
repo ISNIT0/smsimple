@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/ISNIT0/smsimple.svg?branch=master)](https://travis-ci.org/ISNIT0/smsimple) [![codecov](https://codecov.io/gh/isnit0/smsimple/branch/master/graph/badge.svg)](https://codecov.io/gh/isnit0/smsimple) [![CodeFactor](https://www.codefactor.io/repository/github/isnit0/smsimple/badge)](https://www.codefactor.io/repository/github/isnit0/smsimple)
 
+<div style='text-align:center;'>
+<img src='./logo.png' style='height:200px' />
+</div>
 
 Sending SMS messages is easy, but all the different providers have different APIs.<br />
 SMSimple makes it easy to use any provider without installing countless libraries, in a type-safe way.
