@@ -18,13 +18,13 @@ test(`Throws errors when keys are missing`, async (t) => {
     try {
         await smSimple.simwood('', '', 'Test');
     } catch (err) {
-        t.ok('Throws when missing Simwood keys')
+        t.ok('Throws when missing Simwood keys');
     }
     try {
-    } catch (err) {
         await smSimple.telesign('', '');
+    } catch (err) {
+        t.ok('Throws when missing Telesign keys');
     }
-    t.ok('Throws when missing Telesign keys');
 });
 
 // test(`Runs when keys are present`, async (t) => {
